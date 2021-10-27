@@ -6,4 +6,6 @@ Group: B19-DS-01
 ## Structure of repository:
 
 Lab01: setting up the environment and getting started with Vagrant \
-Lab02: getting started with Docker Hub, Docker Compose, Docker Swarm, Docker Machine
+Lab02: getting started with Docker Hub, Docker Compose, Docker Swarm, Docker Machine \
+Lab03: getting started with Hadoop (using both Vagrant and Docker)
+
