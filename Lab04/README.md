@@ -29,5 +29,5 @@ $ cat output/part-r-00000
 ```
 
 Access web inteface: \
-Hadoop: 10.0.0.11:9870 \
-YARN: 10.0.0.11:8088
+Hadoop: http://10.0.0.11:9870` \
+YARN: http://10.0.0.11:8088
