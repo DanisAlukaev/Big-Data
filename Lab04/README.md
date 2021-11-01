@@ -8,8 +8,12 @@ Prerequisites:
 ```
 $ vagrant up
 $ vagrant ssh server-1
+
 $ start-dfs.sh
+$ hdfs dfsadmin -report
+
 $ start-yarn.sh
+$ yarn node -list
 ```
 Create `alice.txt` file:
 ```
