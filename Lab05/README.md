@@ -26,7 +26,7 @@ Compile the application:
 $ javac -cp $(hadoop classpath) WordCount.java
 $ jar -cvf WordCount.jar WordCount*.class
 ```
-However, each version is already compiled, see the `Compiled` derictory.
+However, each version is already compiled, see the `Compiled` directory.
 
 Run jobs:
 Move files for necessary version to `/home/vagrant/` directory, and run the following command.
@@ -38,6 +38,7 @@ Check results of wordcount:
 $ hdfs dfs -get lab5 lab5
 $ cat lab5/part-r-00000
 ```
+The output is available in `output` directory.
 
 Access web inteface: \
 Hadoop: http://10.0.0.11:9870 \
