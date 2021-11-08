@@ -18,7 +18,3 @@ object WordCount{
         counts.saveAsTextFile(outputPath)
     }
 }
-
-
-
-
