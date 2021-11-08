@@ -6,6 +6,11 @@ Group: B19-DS-01
 ## Getting started:
 The repository contains several directories, each containing information about the respective step. Accordingly, the `Part 3` is the final version. Inside this folder you can see the source code, compiled version, and logs/output after the successful execution of `.jar` file. 
 
+Next sections will show how to run the WordCount example with filtering and sorting. This is the tracking information about the Spark application:
+![image](https://user-images.githubusercontent.com/40852284/140736417-061486c4-06d6-475a-ba6a-ec7330f7eab4.png)
+
+
+
 
 Prerequisites:
 ```
