@@ -4,6 +4,9 @@ Email: d.alukaev@innopolis.university \
 Group: B19-DS-01 
 
 ## Getting started:
+The repository contains several directories, each containing information about the respective step. Accordingly, the `Part 3` is the final version. Inside this folder you can see the source code, compiled version, and logs/output after the successful execution of `.jar` file. 
+
+
 Prerequisites:
 ```
 $ vagrant up
