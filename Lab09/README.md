@@ -41,7 +41,7 @@ In order make the vertex 1 most popular in the graph (by PageRank metric), there
 - added edge `(4, Diane) -Wrote-status-> (1, Ann)`
 
 #### Before the change
-![before](/documents/Current%20topology.png)
+![before](./documents/Current%20topology.png)
 
 #### After the change
-![before](/documents/New%20topology.png)
+![before](./documents/New%20topology.png)
