@@ -28,3 +28,20 @@ The first example, where graph databases can be used is **fraudulent transaction
 
 The second example is **recommendation and personalization systems**, where the graph structure promotes search for insights allowing enterprises to influence the cutomers. The graph learning (GL) recommender systems is the [popular research topic](https://arxiv.org/pdf/2105.06339.pdf) nowadays.
 ### 3. Changing the graph structure.
+The notebook with Scala script [is located](./GraphX.ipynb) in this repository.
+
+Start the spykernel using:
+```
+docker run --dns=8.8.8.8 --rm -p 0.0.0.0:8888:8888 -p 0.0.0.0:4040:4040 -e JUPYTER_ENABLE_LAB=yes -v /home/danis:/home/jovyan/work jupyter/all-spark-notebook start-notebook.sh
+```
+
+In order make the vertex 1 most popular in the graph (by PageRank metric), there were
+- changed direction of the first edge `(1, Ann) -is-friends-with-> (2, Bill)` to `(2, Bill) -is-friends-with-> (1, Ann)`
+- removed edge `(4, Diane) -Likes-status-> (5, Went to the gym this morning)`
+- added edge `(4, Diane) -Wrote-status-> (1, Ann)`
+
+#### Before the change
+![before](/documents/Current%20topology.png)
+
+#### After the change
+![before](/documents/New%20topology.png)
